@@ -12,6 +12,7 @@ html {
 }
 
 header {
+  position: relative;
   padding: 30px 80px 40px;
   display: flex;
   min-height: 720px;
@@ -75,6 +76,10 @@ nav {
   margin: 20px 0 0;
 }
 
+.header__description_span-accent {
+  display: block;
+}
+
 .header__span-accent {
   display: block;
   font-family: "Noto Serif", "Times New Roman", Arial, sans-serif;
@@ -83,6 +88,16 @@ nav {
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
+}
+
+.header__image {
+  z-index: 1;
+  position: absolute;
+  max-width: 646px;
+  max-height: 568px;
+  top: 124px;
+  margin-right: 5px;
+  right: 2px;
 }
 
 .header__footer {
@@ -159,4 +174,5 @@ nav {
 
 .recipes__iframes {
   margin: 0;
+  padding: 0;
 }
