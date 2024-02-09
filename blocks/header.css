@@ -21,6 +21,7 @@ header {
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
+  z-index: 4;
 }
 
 .header__description {
@@ -31,6 +32,7 @@ header {
   font-size: 20px;
   line-height: 30px;
   margin: 20px 0 0;
+  z-index: 3;
 }
 
 .header__description_span-accent {
@@ -55,12 +57,14 @@ header {
   top: 124px;
   margin-right: 5px;
   right: 2px;
+  z-index: 0;
 }
 
 .header__footer {
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  z-index: 2;
 }
 
 .header__paragraph {
@@ -72,4 +76,5 @@ header {
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  align-self: flex-end;
 }
