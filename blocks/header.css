@@ -47,12 +47,11 @@
 }
 
 .header__image {
-  z-index: 1;
   position: absolute;
   max-width: 646px;
   max-height: 568px;
   top: 124px;
-  right: 2px;
+  right: 5px;
   z-index: 0;
 }
 
